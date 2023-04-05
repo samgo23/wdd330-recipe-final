@@ -1,0 +1,177 @@
+/* Font */
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1em;
+}
+  
+h1, h2, h3 {
+font-family: 'Nerko One', cursive;
+}
+
+/* Colors */
+:root {
+--primary-color: #16697A;
+--secondary-color: #489FB5;
+--tertiary-color: #82C0CC;
+--light-color: #EDE7E3;
+--accent-color: #FFA62B;
+}
+
+/* Header */
+header {
+background-color: var(--primary-color);
+color: var(--light-color);
+padding: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header h1 {
+font-size: 36px;
+}
+
+header a {
+color: var(--light-color);
+text-decoration: none;
+}
+/* Header styles */
+#main-header {
+	background-color: #16697A;
+	color: #EDE7E3;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+}
+
+#main-header p {
+font-family: 'Nerko One', cursive;
+font-size: 32px;
+margin: 0;
+}
+
+#main-header nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#main-header nav li {
+display: inline-block;
+margin-right: 20px;
+}
+
+#main-header nav li:last-child {
+margin-right: 0;
+}
+
+#main-header nav a {
+color: #EDE7E3;
+text-decoration: none;
+}
+
+#main-header nav a:hover {
+color: #FFA62B;
+}
+
+/* Footer styles */
+#main-footer {
+background-color: #82C0CC;
+color: #16697A;
+text-align: center;
+padding: 10px;
+}
+
+#main-footer p {
+margin: 0;
+}
+
+/* Recipe Container */
+#recipe-container {
+margin: 20px auto;
+max-width: 800px;
+border: 2px solid var(--secondary-color);
+border-radius: 10px;
+box-shadow: 5px 5px var(--tertiary-color);
+padding: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#recipe-container h2 {
+color: var(--primary-color);
+font-size: 32px;
+}
+
+#recipe-container img {
+max-width: 100%;
+margin: 20px 0;
+}
+
+#recipe-container .info {
+display: flex;
+justify-content: space-between;
+width: 100%;
+margin: 20px 0;
+}
+
+#recipe-container .info p {
+margin: 0;
+}
+
+#recipe-container .info .servings {
+color: var(--accent-color);
+}
+
+#recipe-container .summary {
+margin: 20px 0;
+line-height: 1.5;
+}
+
+#recipe-container .instructions {
+margin: 20px 0;
+}
+
+#recipe-container .instructions h3 {
+color: var(--primary-color);
+font-size: 28px;
+margin: 0;
+}
+
+#recipe-container .instructions ol {
+padding-left: 20px;
+}
+
+#recipe-container .instructions li {
+margin: 10px 0;
+}
+
+#recipe-container .instructions li b {
+color: var(--secondary-color);
+}
+
+#recipe-container .instructions li a {
+color: var(--primary-color);
+}
+
+#recipe-container .instructions li a:hover {
+text-decoration: underline;
+}
+
+#new-recipe-button {
+	background-color: #489FB5;
+	color: #EDE7E3;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+  }
+  
+  #new-recipe-button:hover {
+	background-color: #82C0CC;
+  }
+  
